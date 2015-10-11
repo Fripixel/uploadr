@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Uploader -  Simplest uploader HTML5</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">	
+	<!--link rel="stylesheet" href="dist/css/uploadr.min.css" /--> 	
+	<link rel="stylesheet" href="css/uploadr.css" /> 	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<form action="server/upload.php" method="post" enctype="multipart/form-data">
+				<div class="row"></div>
+				<div class="col s4 offset-s4 card">
+				
+					<div class="col s12">
+						<div class="col s12 grey lighten-3">						
+							<h2 class="center-align"> 
+								<i class="fa fa-camera"></i> UPLOADR 			
+							</h2>
+						</div>				
+						<div class="row"></div>
+						<h5 class="grey-text text-lighten-1 center-align">simplifying the upload process.</h5>
+						<hr />
+					</div>
+
+					<div class="input-field col s6">
+						<input id="name" type="text" placeholder="name">
+						<label for="name">Name</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="lastname" type="text" placeholder="lastname">
+						<label for="lastname">Lastname</label>
+					</div>					
+					<div class="input-field col s12">
+						<input id="email" type="email" placeholder="e-mail">
+						<label for="email">E-mail</label>
+					</div>										
+					
+					<!-- uploadr -->
+					<div class="input-field col s12 margin-reset margin-bottom-default">
+						<!-- basic structure -->
+						<div class="uploadr">
+							<a href="javascript:;" id="addfile" class="btn btn-block blue lighten-1"><i class="fa fa-picture-o"></i> images</a>	
+							<ul id="preview"></ul>
+						</div>
+						<!--// basic structure -->
+						<hr />
+					</div>
+					<!--// uploadr -->
+
+					<div class="input-field col s12">
+						<textarea id="email" placeholder="Message" class="materialize-textarea"></textarea>
+						<label for="email">message</label>
+					</div>						
+
+					<div class="col s12">
+						<button type="submit" class="btn blue right">send</button>
+					</div>
+					<div class="row"></div>
+				</div>
+			</form>
+		</div>	
+	</div>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>		
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<!--script src="dist/js/uploadr.min.js"></script-->			
+<script src="js/uploadr.js"></script>			
+<script>
+	$(function(){
+		$(".uploadr").uploadr();
+	});
+</script>
+</body>
+</html>
