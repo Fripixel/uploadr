@@ -1,0 +1,39 @@
+<h1 id="uploader">UPLOADER</h1>
+<h2 id="simplifying-the-upload-proccess">simplifying the upload proccess</h2>
+<p>This plugins will accelerate your upload process.</p>
+<p>it&#39;s simple to use, and its very useful.</p>
+<p>Just add the styles </p>
+<pre><code class="lang-html">    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css&quot; /&gt;    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css&quot;&gt;    
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;dist/css/uploadr.css&quot; /&gt;
+</code></pre>
+<p>...and the necessary libraries...</p>
+<pre><code class="lang-html">    &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js&quot;&gt;&lt;/script&gt;        
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;dist/js/uploadr.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>...create the basic HTML structure...</p>
+<pre><code class="lang-html">    &lt;!-- uploadr --&gt;
+    &lt;div class=&quot;input-field col s12 margin-reset margin-bottom-default&quot;&gt;
+        &lt;!-- basic structure --&gt;
+        &lt;div class=&quot;uploadr&quot;&gt;
+            &lt;a href=&quot;javascript:;&quot; id=&quot;addfile&quot; class=&quot;btn btn-block blue lighten-1&quot;&gt;&lt;i class=&quot;fa fa-picture-o&quot;&gt;&lt;/i&gt; images&lt;/a&gt;    
+            &lt;ul id=&quot;preview&quot;&gt;&lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;!--// basic structure --&gt;
+        &lt;hr /&gt;
+    &lt;/div&gt;
+    &lt;!--// uploadr --&gt;
+</code></pre>
+<p>...and initialize the plugin like this:</p>
+<pre><code class="lang-javascript">$(function(){
+    $(&quot;.uploadr&quot;).uploadr({
+          &#39;buttonID&#39;: &#39;#addfile&#39;, //id of the uploadr
+          &#39;inputName&#39;: &#39;images[]&#39;, //field name 
+          &#39;accept&#39;: &quot;image/x-png, image/gif, image/jpeg&quot;, //filter extensions
+          &#39;multiple&#39;: null //multiple files
+    });
+});
+</code></pre>
+<p>Done! Enjoy it!</p>
+<p>Developed by: <a href="http://www.fripixel.com.br">http://www.fripixel.com.br</a></p>
