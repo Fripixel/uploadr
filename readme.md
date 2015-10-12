@@ -1,3 +1,5 @@
+![Fripixel Logo](http://www.fripixel.com.br/img/logotipo-footer.png "Fripixel Logo")
+
 #UPLOADER
 
 ##simplifying the upload proccess
@@ -51,6 +53,6 @@ $(function(){
 });
 ```
 
-Done! Enjoy it!
+*Done! Enjoy it!*
 
-Developed by: http://www.fripixel.com.br
+**Developed by:** http://www.fripixel.com.br
