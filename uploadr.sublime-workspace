@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-color"
+			],
+			[
+				"U",
+				"Uploadr"
+			],
+			[
+				"Up",
+				"Uploader"
+			],
+			[
 				"set",
 				"setCounter"
 			],
@@ -416,10 +428,6 @@
 				"class"
 			],
 			[
-				"back",
-				"backToMenu	(order-modal.html)"
-			],
-			[
 				"c",
 				"class	Attr"
 			],
@@ -506,14 +514,6 @@
 			[
 				"ri",
 				"right"
-			],
-			[
-				"has",
-				"hasClass	.hasClass()"
-			],
-			[
-				"ale",
-				"alergies"
 			]
 		]
 	},
@@ -523,7 +523,15 @@
 			"file": "js/uploadr.js",
 			"settings":
 			{
-				"buffer_size": 4640,
+				"buffer_size": 5176,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/uploadr.css",
+			"settings":
+			{
+				"buffer_size": 1341,
 				"line_ending": "Windows"
 			}
 		}
@@ -581,10 +589,11 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
+		"/C/xampp/htdocs/uploadr/index.html",
+		"/C/Users/Felipe/Desktop/kefir muito azedo.txt",
 		"/C/xampp/htdocs/uploadr/readme.md",
 		"/C/xampp/htdocs/uploadr/js/uploadr.js",
-		"/C/xampp/htdocs/uploadr/index.html",
-		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
 		"/C/xampp/htdocs/uploadr/css/uploadr.css",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/houses/index.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/menus/form.blade.php",
@@ -707,8 +716,7 @@
 		"/C/xampp/htdocs/lacard.com.br/resources/views/dishes/index.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Models/Dishes.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/UserController.php",
-		"/C/xampp/htdocs/lacard.com.br/resources/views/user/index.blade.php",
-		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/OrdersController.php"
+		"/C/xampp/htdocs/lacard.com.br/resources/views/user/index.blade.php"
 	],
 	"find":
 	{
@@ -832,6 +840,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getse",
+			"uploader",
+			"button",
+			"100px",
+			"th",
 			"qty",
 			"100px",
 			"Uploader",
@@ -954,12 +967,7 @@
 			"update",
 			"orm::label('slug',",
 			"translateme",
-			"messages",
-			"update",
-			"vali",
-			"validator",
-			"valid",
-			"update"
+			"messages"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1056,15 +1064,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4640,
+						"buffer_size": 5176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1622,
-								1622
+								4941,
+								4941
 							]
 						],
 						"settings":
@@ -1074,10 +1082,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1482.0,
+						"translation.y": 4144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/uploadr.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1136,8 +1174,16 @@
 		"selected_items":
 		[
 			[
+				"distcss",
+				"dist\\css\\uploadr.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
 				"uploadr",
-				"js\\uploadr.js"
+				"css\\uploadr.css"
 			],
 			[
 				"read",
@@ -1150,10 +1196,6 @@
 			[
 				"rea",
 				"readme.md"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"ream",
@@ -1642,10 +1684,6 @@
 			[
 				"order",
 				"app\\Http\\Controllers\\OrdersController.php"
-			],
-			[
-				"menused",
-				"resources\\views\\menus\\edit.blade.php"
 			]
 		],
 		"width": 0.0
@@ -1653,9 +1691,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "lacard",
 		"selected_items":
 		[
+			[
+				"lacard",
+				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
+			],
 			[
 				"",
 				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
