@@ -523,7 +523,7 @@
 			"file": "js/uploadr.js",
 			"settings":
 			{
-				"buffer_size": 5176,
+				"buffer_size": 5164,
 				"line_ending": "Windows"
 			}
 		},
@@ -589,6 +589,8 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/lacard.com.br/public/js/scripts.old.js",
+		"/C/xampp/htdocs/lacard.com.br/public/js/uploadr.min.js",
 		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
 		"/C/xampp/htdocs/uploadr/index.html",
 		"/C/Users/Felipe/Desktop/kefir muito azedo.txt",
@@ -609,7 +611,6 @@
 		"/C/xampp/htdocs/lacard.com.br/app/Http/routes.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/HousesController.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/user/dashboard.blade.php",
-		"/C/xampp/htdocs/lacard.com.br/public/js/uploadr.min.js",
 		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/ImageController.php",
 		"/C/xampp/htdocs/lacard.com.br/database/migrations/2015_07_18_233630_create_professionals_table.php",
 		"/C/xampp/htdocs/lacard.com.br/database/migrations/2015_06_17_190226_create_client_images_table.php",
@@ -657,7 +658,6 @@
 		"/C/xampp/htdocs/lacard.com.br/app/Models/Houses.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Models/Menus.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/DishesController.php",
-		"/C/xampp/htdocs/lacard.com.br/public/js/scripts.old.js",
 		"/C/xampp/htdocs/lacard.com.br/vendor/dilab/resumable.php/src/Resumable.php",
 		"/C/xampp/htdocs/fileapi/index.php",
 		"/C/xampp/htdocs/fileapi/server/ctrl.php",
@@ -840,6 +840,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onClick",
+			"uploadr.bu",
+			"button.css",
+			".css",
 			"getse",
 			"uploader",
 			"button",
@@ -963,11 +967,7 @@
 			"inputAll(",
 			"inputAll",
 			"update",
-			"glide",
-			"update",
-			"orm::label('slug',",
-			"translateme",
-			"messages"
+			"glide"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1064,15 +1064,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5176,
+						"buffer_size": 5164,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4941,
-								4941
+								974,
+								974
 							]
 						],
 						"settings":
@@ -1082,7 +1082,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4144.0,
+						"translation.y": 490.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1691,15 +1691,15 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "lacard",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"lacard",
+				"",
 				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
 			],
 			[
-				"",
+				"lacard",
 				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
 			],
 			[
