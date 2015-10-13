@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"setCounter"
+			],
+			[
 				"is",
 				"isHTTP	(GlideImageExtension.php)"
 			],
@@ -234,10 +238,6 @@
 			[
 				"sett",
 				"settings"
-			],
-			[
-				"set",
-				"settings	(database.js)"
 			],
 			[
 				"op",
@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/uploadr.js",
+			"settings":
+			{
+				"buffer_size": 4640,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -573,6 +581,11 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/uploadr/readme.md",
+		"/C/xampp/htdocs/uploadr/js/uploadr.js",
+		"/C/xampp/htdocs/uploadr/index.html",
+		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
+		"/C/xampp/htdocs/uploadr/css/uploadr.css",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/houses/index.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/menus/form.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/layouts/sidebar.blade.php",
@@ -605,21 +618,16 @@
 		"/C/xampp/htdocs/lacard.com.br/app/Extensions/GlideImageExtension.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/Controller.php",
 		"/C/Users/Felipe/Desktop/prolancer texto de apresentação.txt",
-		"/C/xampp/htdocs/uploadr/css/uploadr.css",
-		"/C/xampp/htdocs/uploadr/index.html",
 		"/C/xampp/htdocs/lacard.com.br/public/css/uploadr.min.css",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/layouts/styles.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/layouts/scripts.blade.php",
-		"/C/xampp/htdocs/uploadr/js/uploadr.js",
 		"/C/xampp/htdocs/uploadr/.gitignore",
-		"/C/xampp/htdocs/uploadr/readme.md",
 		"/C/xampp/htdocs/uploadr/dist/css/uploadr.min.css",
 		"/C/xampp/htdocs/uploadr/js/min/uploadr.min.js",
 		"/C/xampp/htdocs/lacard.com.br/public/js/glide.min.js",
 		"/C/xampp/htdocs/uploadr/.gitgnore",
 		"/C/xampp/htdocs/uploadr/server/upload.php",
 		"/C/xampp/htdocs/uploadr/dist/js/uploadr.js",
-		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
 		"/C/xampp/htdocs/lacard.com.br/public/js/uploadr.js",
 		"/C/xampp/htdocs/lacard.com.br/public/css/uploadr.css",
 		"/C/xampp/htdocs/lacard.com.br/public/css/uploader.css",
@@ -824,6 +832,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"qty",
+			"100px",
+			"Uploader",
+			"addf",
 			"input[",
 			"a:hover",
 			"9FCE5A",
@@ -947,11 +959,7 @@
 			"vali",
 			"validator",
 			"valid",
-			"update",
-			"redirectnotfou",
-			"redirectNotFound",
-			"redirectNotFound(",
-			"menus"
+			"update"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1039,8 +1047,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/uploadr.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1622,
+								1622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1482.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1096,6 +1135,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"uploadr",
+				"js\\uploadr.js"
+			],
+			[
+				"read",
+				"readme.md"
+			],
+			[
+				"dist",
+				"dist\\css\\uploadr.css"
+			],
+			[
+				"rea",
+				"readme.md"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"ream",
+				"readme.md"
+			],
 			[
 				"housesindex",
 				"resources\\views\\houses\\index.blade.php"
@@ -1155,10 +1218,6 @@
 			[
 				"script",
 				"public\\js\\scripts.js"
-			],
-			[
-				"uploadr",
-				"public\\js\\uploadr.min.js"
 			],
 			[
 				"styl",
@@ -1587,26 +1646,6 @@
 			[
 				"menused",
 				"resources\\views\\menus\\edit.blade.php"
-			],
-			[
-				"housescon",
-				"app\\Http\\Controllers\\HousesController.php"
-			],
-			[
-				"menuindex",
-				"resources\\views\\menus\\index.blade.php"
-			],
-			[
-				"menusima",
-				"app\\Models\\MenusImages.php"
-			],
-			[
-				"intervention/image/image",
-				"vendor\\intervention\\image\\src\\Intervention\\Image\\Image.php"
-			],
-			[
-				"image.php",
-				"vendor\\intervention\\image\\src\\Intervention\\Image\\Image.php"
 			]
 		],
 		"width": 0.0
@@ -1617,6 +1656,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
+			],
 			[
 				"lacar",
 				"C:\\xampp\\htdocs\\lacard\\lacard.sublime-project"
@@ -1636,10 +1679,6 @@
 			[
 				"ev",
 				"C:\\xampp\\htdocs\\evangelhocomentado.com.br\\evangelhocomentado.sublime-project"
-			],
-			[
-				"",
-				"C:\\xampp\\htdocs\\lacard\\lacard.sublime-project"
 			],
 			[
 				"evan",
