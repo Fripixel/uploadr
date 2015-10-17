@@ -41,14 +41,16 @@ Just add the styles
 ```
 
 ...and initialize the plugin like this:
-
+ 
 ```javascript
 $(function(){
 	$(".uploadr").uploadr({
           'buttonID': '#addfile', //id of the uploadr
           'inputName': 'images[]', //field name 
           'accept': "image/x-png, image/gif, image/jpeg", //filter extensions
-          'multiple': null //multiple files
+          'multiple': null, //multiple files
+          'qty': 0, //amount of files 0 = unlimited          
+          'once': false // upload one file            
 	});
 });
 ```

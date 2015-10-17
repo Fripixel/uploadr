@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -510,10 +514,6 @@
 			[
 				"ov",
 				"overflow"
-			],
-			[
-				"ri",
-				"right"
 			]
 		]
 	},
@@ -523,15 +523,15 @@
 			"file": "js/uploadr.js",
 			"settings":
 			{
-				"buffer_size": 5164,
+				"buffer_size": 6215,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/uploadr.css",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1341,
+				"buffer_size": 2805,
 				"line_ending": "Windows"
 			}
 		}
@@ -589,14 +589,15 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/uploadr/index.html",
+		"/C/xampp/htdocs/uploadr/css/uploadr.css",
+		"/C/Users/Felipe/Desktop/oculos bloqueador de luz azul 400 nanometros comprar.txt",
 		"/C/xampp/htdocs/lacard.com.br/public/js/scripts.old.js",
 		"/C/xampp/htdocs/lacard.com.br/public/js/uploadr.min.js",
 		"/C/xampp/htdocs/uploadr/dist/css/uploadr.css",
-		"/C/xampp/htdocs/uploadr/index.html",
 		"/C/Users/Felipe/Desktop/kefir muito azedo.txt",
 		"/C/xampp/htdocs/uploadr/readme.md",
 		"/C/xampp/htdocs/uploadr/js/uploadr.js",
-		"/C/xampp/htdocs/uploadr/css/uploadr.css",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/houses/index.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/menus/form.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/layouts/sidebar.blade.php",
@@ -715,8 +716,7 @@
 		"/C/xampp/htdocs/lacard.com.br/resources/views/vendor/pingpong/admin/users/create.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/resources/views/dishes/index.blade.php",
 		"/C/xampp/htdocs/lacard.com.br/app/Models/Dishes.php",
-		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/UserController.php",
-		"/C/xampp/htdocs/lacard.com.br/resources/views/user/index.blade.php"
+		"/C/xampp/htdocs/lacard.com.br/app/Http/Controllers/UserController.php"
 	],
 	"find":
 	{
@@ -840,6 +840,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"watch",
+			"uploadr.time",
+			"time",
+			"uploadr.time",
+			"preview",
+			"events",
+			"events:",
+			"decrement",
+			"remove",
+			"li.remo",
 			"onClick",
 			"uploadr.bu",
 			"button.css",
@@ -957,17 +967,7 @@
 			"title",
 			"menu",
 			"10, 2",
-			"menu",
-			"order",
-			"getImageData",
-			"dd(",
-			"getData",
-			"vali",
-			"all(",
-			"inputAll(",
-			"inputAll",
-			"update",
-			"glide"
+			"menu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1064,15 +1064,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5164,
+						"buffer_size": 6215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								974,
-								974
+								5742,
+								5742
 							]
 						],
 						"settings":
@@ -1082,7 +1082,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 490.0,
+						"translation.y": 5450.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1090,29 +1090,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/uploadr.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1341,
+						"buffer_size": 2805,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1341
+								2011,
+								2011
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1248.0,
+						"translation.y": 1669.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1174,12 +1173,12 @@
 		"selected_items":
 		[
 			[
-				"distcss",
-				"dist\\css\\uploadr.css"
-			],
-			[
 				"inde",
 				"index.html"
+			],
+			[
+				"distcss",
+				"dist\\css\\uploadr.css"
 			],
 			[
 				"uploadr",
