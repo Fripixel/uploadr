@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/uploadr.js",
+			"settings":
+			{
+				"buffer_size": 9762,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -824,6 +832,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"decrement",
 			".disable",
 			"this.settings",
 			"increment",
@@ -950,8 +959,7 @@
 			"gzip",
 			"deflate",
 			"sByType image/gif",
-			"deflate",
-			"index.php"
+			"deflate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1041,8 +1049,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/uploadr.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6708,
+								6711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1099,6 +1138,10 @@
 		"selected_items":
 		[
 			[
+				"uploadr",
+				"js\\uploadr.js"
+			],
+			[
 				"read",
 				"readme.md"
 			],
@@ -1109,10 +1152,6 @@
 			[
 				"distcss",
 				"dist\\css\\uploadr.css"
-			],
-			[
-				"uploadr",
-				"css\\uploadr.css"
 			],
 			[
 				"dist",
@@ -1616,9 +1655,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "la",
 		"selected_items":
 		[
+			[
+				"la",
+				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
+			],
 			[
 				"",
 				"C:\\xampp\\htdocs\\lacard.com.br\\lacard-laravel.sublime-project"
@@ -1650,10 +1693,6 @@
 			[
 				"evan",
 				"C:\\xampp\\htdocs\\evangelhocomentado.com.br\\evangelhocomentado.sublime-project"
-			],
-			[
-				"la",
-				"C:\\xampp\\htdocs\\lacard\\lacard.sublime-project"
 			],
 			[
 				"mete",
