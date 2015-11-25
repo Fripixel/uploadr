@@ -1,4 +1,4 @@
-![Fripixel Logo](http://www.fripixel.com.br/img/logotipo-footer.png "Fripixel Logo")
+![Fripixel Logo](http://www.fripixel.com.br/wp-content/uploads/2015/08/logotipo-footer1.png "Fripixel Logo")
 
 #UPLOADER
 
